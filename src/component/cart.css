@@ -1,0 +1,108 @@
+/* Cart.css */
+.cart-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 50vh;
+  }
+  
+  .cart-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cart-empty {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .cart-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-item-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-price {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-quantity button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .cart-item-remove {
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto; /* Push to the right */
+  }
+  
+  .cart-item-remove:hover {
+    background-color: #c12a36; /* Darker red on hover */
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: right; /* Align to the right */
+  }
+  
+  .cart-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cart-checkout {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-checkout:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
